@@ -34,8 +34,6 @@ class QueueTests: XCTestCase {
         //XCTAssert(value == valueBack, "values should be equal")
     }
     
-    static var allTests = [
-        ("testEnqueue", testEnqueue, "testDequeue", testDequeue),
-        ]
+    static var allTests = [("testEnqueue", testEnqueue), ("testDequeue", testDequeue)]
 }
 

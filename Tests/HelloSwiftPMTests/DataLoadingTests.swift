@@ -32,4 +32,5 @@ class DataLoadingTests: XCTestCase {
         waitForExpectations(timeout: 30, handler: nil)
     }
     
+    static var allTests = [("testLoadingRemoteData", testLoadingRemoteData)]
 }

@@ -12,6 +12,6 @@ class HelloSwiftPMTests: XCTestCase {
     }
     
     static var allTests = [
-        ("testExample", testExample, "newTest", newTest),
+        ("testExample", testExample), ("newTest", newTest),
     ]
 }
