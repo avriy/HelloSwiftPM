@@ -29,7 +29,7 @@ class DataLoadingTests: XCTestCase {
             }
         }
         
-        wait(for: [dataCanBeLoaded], timeout: 30)
+        waitForExpectations(timeout: 30, handler: nil)
     }
     
 }
