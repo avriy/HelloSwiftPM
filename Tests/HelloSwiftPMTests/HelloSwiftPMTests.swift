@@ -7,7 +7,11 @@ class HelloSwiftPMTests: XCTestCase {
         XCTAssertEqual("Artemiy".hello, "Hello, Artemiy")
     }
 
+    func newTest() {
+        
+    }
+    
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample, "newTest", newTest),
     ]
 }
