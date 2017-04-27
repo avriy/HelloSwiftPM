@@ -1,6 +1,9 @@
 import XCTest
-@testable import HelloSwiftPM
 import Foundation
+
+#if os(Linux)
+import Dispatch
+#endif
 
 class DataLoadingTests: XCTestCase {
     
